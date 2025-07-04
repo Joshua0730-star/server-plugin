@@ -4,36 +4,32 @@ POST http://localhost:3001/api/generate-code
 Content-Type: application/json
 
 {
-    "figmaData": [{
-        "id": "1:2",
-        "name": "Frame 1",
-        "type": "FRAME",
-        "children": [
-            {
-                "id": "1:3",
-                "name": "Rectangle 1",
-                "type": "RECTANGLE",
-                "absoluteBoundingBox": {
-                    "x": 100,
-                    "y": 100,
-                    "width": 200,
-                    "height": 100
-                },
-                "fills": [
-                    {
-                        "type": "SOLID",
-                        "color": {
-                            "r": 0.2,
-                            "g": 0.6,
-                            "b": 0.8
-                        }
-                    }
-                ]
-            }
-        ]
+    "figmaData": [{  
+        "childCss": [],
+        "cornerRadius": 8,
+        "counterAxisAlignItems": "MIN",
+        "counterAxisSizingMode": "FIXED",
+        "effects": [],
+        "fills": [],
+        "height": 1059,
+        "id": "4:103",
+        "itemSpacing": 54,
+        "name": "Buttons",
+        "paddingBottom": 197,
+        "paddingLeft": 112,
+        "paddingRight": 112,
+        "paddingTop": 197,
+        "parentId": "0:1",
+        "primaryAxisAlignItems": "MIN",
+        "primaryAxisSizingMode": "FIXED",
+        "strokeAlign": "INSIDE",
+        "strokeWeight": 1,
+        "strokes": [],
+        "width": 1128
+
     }],
     "technologies": {
-        "leftTec": "Html",
-        "rightTec": "Tailwind"
-    }
+                "leftTec": "html",
+                "rightTec": "css"
+            }
 }

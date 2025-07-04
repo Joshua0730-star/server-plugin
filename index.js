@@ -9,6 +9,7 @@ dotenv.config();
 const app = express();
 const port = process.env.PORT ?? 3001; // Puerto para el backend
 
+console.log(port);
 // Middleware para habilitar CORS
 app.use(cors()); // <--- HABILITAR CORS (para todas las solicitudes en desarrollo)
 //  Para producción, podrías querer restringirlo:
